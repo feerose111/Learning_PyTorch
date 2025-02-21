@@ -1,4 +1,4 @@
-﻿# My Project
+# My Project
 # Pytorch Learning Log
 
 This repository documents my journey of learning **PyTorch** and its differences from **TensorFlow**.
@@ -15,10 +15,32 @@ This repository documents my journey of learning **PyTorch** and its differences
 - Experimented with **GPU acceleration** by moving tensors to CUDA (`tensor.to('cuda')`).
 - Practiced operations like **addition, multiplication, reshaping, and indexing**.
 
-### Next Steps
-- Learn about **autograd (automatic differentiation)** in PyTorch.
-- Explore **neural network creation** using `torch.nn`.
-- Build a simple model and train it on a dataset.
+## Day 3: Learning About Basics of Autograd
+- Explored **automatic differentiation** using PyTorch's `autograd` module.
+- Understood how PyTorch computes gradients automatically for tensor operations.
+- Learned how to use `requires_grad=True` to track computations and compute gradients.
+- Practiced using `backward()` and `grad` attributes to access gradient values.
 
+## Day 4: Creating a Neural Network Using PyTorch from Scratch
+- **Built a simple neural network**.
+- **Trained it on a real-world dataset**.
+- **Mimicked the PyTorch workflow**.
+- **Used a lot of manual elements** to understand the internal workings.
+- **Focused on learning rather than the final result**.
+
+### Steps Followed:
+1. **Loaded the dataset** ✅
+2. **Performed basic preprocessing** ✅
+3. **Training Process:**
+   - a. Created the model
+   - b. Forward pass
+   - c. Loss calculation
+   - d. Backpropagation
+   - e. Parameter updates
+4. **Model evaluation** (to be done in future sessions)
+
+
+## learning from youtube 
+-source - CampusX
 Stay tuned for more updates! 🚀
 
