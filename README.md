@@ -27,10 +27,10 @@ This repository documents my journey of learning **PyTorch** and its differences
 - **Mimicked the PyTorch workflow**.
 - **Used a lot of manual elements** to understand the internal workings.
 - **Focused on learning rather than the final result**.
-
+  
 ### Steps Followed:
-1. **Loaded the dataset** ✅
-2. **Performed basic preprocessing** ✅
+1. **Loaded the dataset** 
+2. **Performed basic preprocessing** 
 3. **Training Process:**
    - a. Created the model
    - b. Forward pass
@@ -40,7 +40,17 @@ This repository documents my journey of learning **PyTorch** and its differences
 4. **Model evaluation** (to be done in future sessions)
 
 
+## Day 5: learning about pytorch nn-module, dataset and dataloader class
+- **Learn about nn-module in detail**.
+- **implemented nn-module in existing neural network**.
+- **Learn about Dataset and Dataloader classes along with its parameters**.
+- **it helps to minimize the code complexity by calling abstact class from `torch.utils.data`**
+- **used to make the batches of dataset and optimise the network**
+- **saw significant increase in accuracy**.
+
+
 ## learning from youtube 
--source - CampusX
-Stay tuned for more updates! 🚀
+- source
+- `CampusX`
+- Stay tuned for more updates! 
 
