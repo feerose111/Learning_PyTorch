@@ -42,11 +42,11 @@ This repository documents my journey of learning **PyTorch** and its differences
 
 ## Day 5: learning about pytorch nn-module, dataset and dataloader class
 - **Learn about nn-module in detail**.
-- **implemented nn-module in existing neural network**.
+- **Implemented nn-module in existing neural network**.
 - **Learn about Dataset and Dataloader classes along with its parameters**.
-- **it helps to minimize the code complexity by calling abstact class from `torch.utils.data`**
-- **used to make the batches of dataset and optimise the network**
-- **saw significant increase in accuracy**.
+- **It helps to minimize the code complexity by calling abstact class from `torch.utils.data`**
+- **Used to make the batches of dataset and optimise the network**
+- **Saw significant increase in accuracy**.
 
 
 ## learning from youtube 
