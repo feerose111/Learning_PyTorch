@@ -47,15 +47,16 @@ This repository documents my journey of learning **PyTorch** and its differences
 - **It helps to minimize the code complexity by calling abstact class from `torch.utils.data`**
 - **Used to make the batches of dataset and optimise the network**
 - **Saw significant increase in accuracy**.
+  
+## Day 6: Building an ANN to predict label of FMNIST dataset from kaggle
+- **Build an simple ANN from scratch using torch in Google colab GPU**
+- **Ran the train and test for whole FMNIST data set of `70,000` images of `28*28` labeled dataset**
+- **Achieved test accuracy at around `88%`**
+- **Encountered problem of overfitting**
+- **To overcome overfitting used techniques such as Batch Normalization and Dropout in the Neural Network**
+- **Performed Regularization on model weight adding `weight-decay` parameter in the optimizer**
+- **Then achieved training accuracy around `94%` and test accuracy around `89%` slightly reducing overfitting**
 
-  ##Day 6: Building an ANN to predict label of FMNIST dataset from kaggle
-  -**Build an simple ANN from scratch using torch in Google colab GPU**
-  -**Ran the train and test for whole FMNIST data set of `70,000` images of `28*28` labeled dataset**
-  -**Achieved test accuracy at around `88%`**
-  -**Encountered problem of overfitting**
-  -**To overcome overfitting used techniques such as Batch Normalization and Dropout in the Neural Network**
-  -**Performed Regularization on model weight adding `weight-decay` parameter in the optimizer**
-  -**Then achieved training accuracy around `94%` and test accuracy around `89%` slightly reducing overfitting**
 
 
 ## learning from youtube 
