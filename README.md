@@ -40,7 +40,7 @@ This repository documents my journey of learning **PyTorch** and its differences
 4. **Model evaluation** (to be done in future sessions)
 
 
-## Day 5: learning about pytorch nn-module, dataset and dataloader class
+## Day 5: Learning about pytorch nn-module, dataset and dataloader class
 - **Learn about nn-module in detail**.
 - **Implemented nn-module in existing neural network**.
 - **Learn about Dataset and Dataloader classes along with its parameters**.
@@ -56,6 +56,12 @@ This repository documents my journey of learning **PyTorch** and its differences
 - **To overcome overfitting used techniques such as Batch Normalization and Dropout in the Neural Network**
 - **Performed Regularization on model weight adding `weight-decay` parameter in the optimizer**
 - **Then achieved training accuracy around `94%` and test accuracy around `89%` slightly reducing overfitting**
+
+## Day 7: Learning to perform hyperparameter tuning on previously built model using optuna
+- **Used Bayesian search for hyperparameter tuning**
+- **Defined a function `objective` and passed `trail` class in that function **
+- **Dynamic approach was used to pass the parameters in that function which allows optuna to try different set of parameters**
+- **Trails were performed to find the best parameter example number of hidden layers, number of neurons per layer, dropout rate, learning rate, epochs, optimizer, etc.. **
 
 
 
