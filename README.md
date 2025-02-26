@@ -59,9 +59,9 @@ This repository documents my journey of learning **PyTorch** and its differences
 
 ## Day 7: Learning to perform hyperparameter tuning on previously built model using optuna
 - **Used Bayesian search for hyperparameter tuning**
-- **Defined a function `objective` and passed `trail` class in that function **
+- **Defined a function `objective` and passed `trail` class in that function**
 - **Dynamic approach was used to pass the parameters in that function which allows optuna to try different set of parameters**
-- **Trails were performed to find the best parameter example number of hidden layers, number of neurons per layer, dropout rate, learning rate, epochs, optimizer, etc.. **
+- **Trails were performed to find the best parameter example number of hidden layers, number of neurons per layer, dropout rate, learning rate, epochs, optimizer, etc.**
 
 
 
