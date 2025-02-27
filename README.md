@@ -63,6 +63,11 @@ This repository documents my journey of learning **PyTorch** and its differences
 - **Dynamic approach was used to pass the parameters in that function which allows optuna to try different set of parameters**
 - **Trails were performed to find the best parameter example number of hidden layers, number of neurons per layer, dropout rate, learning rate, epochs, optimizer, etc.**
 
+## Day 8: Learning how CNN is used in pytorch
+- **In the model `nn.Conv2d ` is used to invoke a convolution function to extract the features**
+- **Extracted features were sent to linear layer after flattening the feature map**
+- **Saw that testing accuracy increased drastically after only using simple CNN architecture**
+
 
 
 ## learning from youtube 
