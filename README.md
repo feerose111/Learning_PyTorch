@@ -68,6 +68,18 @@ This repository documents my journey of learning **PyTorch** and its differences
 - **Extracted features were sent to linear layer after flattening the feature map**
 - **Saw that testing accuracy increased drastically after only using simple CNN architecture**
 
+## Day 9: Learning transfer learning using pytorch
+-**Chose `VGG16` as a pretrained model to run image classification**
+-**Did all the necessary tranformation before sending the input image to `VGG16`**
+-**Transformation included:**
+  - resizing image to `256*256`
+  - center cropping
+  - converted to tensor
+  - Normalize the image to given mean and std in pytorch documentation
+-**Used the features extraction without changing(freezing the feature extraction)**
+-**Made own classifier as we only need 10 classification class**
+-**Trained the model**
+
 
 
 ## learning from youtube 
