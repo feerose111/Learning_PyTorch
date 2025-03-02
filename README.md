@@ -80,7 +80,12 @@ This repository documents my journey of learning **PyTorch** and its differences
 - **Made own classifier as we only need 10 classification class**
 - **Trained the model**
 
-
+## Day 10: Learning RNN architecture and implementing it using pytorch
+- **Learn about the working mechanism of RNN**
+- **Build a simple RNN architecture using pytorch**
+- **Build a question answering system using RNN on a squential question-answer dataset**
+- **Learn to preprocess a CSV question-answer dataset using pytorch before ending it to RNN**
+- **Successfully implemented a simple QA system to answer user question that are only present in that particular dataset**
 
 ## learning from youtube 
 - source:
