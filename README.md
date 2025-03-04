@@ -41,15 +41,15 @@ This repository documents my journey of learning **PyTorch** and its differences
 
 
 ## Day 5: Learning about pytorch nn-module, dataset and dataloader class
-- **Learn about nn-module in detail**.
+- **Learned about nn-module in detail**.
 - **Implemented nn-module in existing neural network**.
-- **Learn about Dataset and Dataloader classes along with its parameters**.
+- **Learned about Dataset and Dataloader classes along with its parameters**.
 - **It helps to minimize the code complexity by calling abstact class from `torch.utils.data`**
 - **Used to make the batches of dataset and optimise the network**
 - **Saw significant increase in accuracy**.
   
 ## Day 6: Building an ANN to predict label of FMNIST dataset from kaggle
-- **Build an simple ANN from scratch using torch in Google colab GPU**
+- **Built a simple ANN from scratch using torch in Google colab GPU**
 - **Ran the train and test for whole FMNIST data set of `70,000` images of `28*28` labeled dataset**
 - **Achieved test accuracy at around `88%`**
 - **Encountered problem of overfitting**
@@ -75,17 +75,24 @@ This repository documents my journey of learning **PyTorch** and its differences
   - resizing image to `256*256`
   - center cropping
   - converted to tensor
-  - Normalize the image to given mean and std in pytorch documentation
+  - Normalizing the image to given mean and std in pytorch documentation
 - **Used the features extraction without changing(freezing the feature extraction)**
 - **Made own classifier as we only need 10 classification class**
 - **Trained the model**
 
 ## Day 10: Learning RNN architecture and implementing it using pytorch
-- **Learn about the working mechanism of RNN**
-- **Build a simple RNN architecture using pytorch**
-- **Build a question answering system using RNN on a squential question-answer dataset**
-- **Learn to preprocess a CSV question-answer dataset using pytorch before ending it to RNN**
+- **Learned about the working mechanism of RNN**
+- **Built a simple RNN architecture using pytorch**
+- **Built a question answering system using RNN on a squential question-answer dataset**
+- **Learned to preprocess a CSV question-answer dataset using pytorch before ending it to RNN**
 - **Successfully implemented a simple QA system to answer user question that are only present in that particular dataset**
+
+## Day 11: Learning to implement LSTM on a small dataset using pytorch
+- **Learned about the architecture of LSTM and how it works**
+- **Preprocessed the raw text data into LSTM feedable form**
+- **Built and implemented LSTM model architecture**
+- **Successufully built a text prediction system**
+- **Its accuracy and relevance can be increased by increaing the size of data set**
 
 ## learning from youtube 
 - source:
